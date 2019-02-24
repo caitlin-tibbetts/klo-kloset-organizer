@@ -2,7 +2,7 @@
   "name": "klo-kloset-organizer",
   "version": "1.0.0",
   "description": "Suggests outfits from your closet based on weather, formality, etc.",
-  "main": "deepFashionServer.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/caitlin-tibbetts/klo-kloset-organizer.git"
@@ -19,6 +19,10 @@
   },
   "homepage": "https://github.com/caitlin-tibbetts/klo-kloset-organizer#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "react": "^16.8.3",
+    "react-native": "^0.58.5",
+    "react-native-camera": "^1.12.0",
+    "react-navigation": "^3.3.0"
   }
 }

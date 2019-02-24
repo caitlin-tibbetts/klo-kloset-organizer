@@ -1,0 +1,36 @@
+dependencies: \
+  /Users/Bea/Desktop/testklo/node_modules/react-native/Libraries/Text/TextInput/RCTBaseTextInputView.m \
+  /Users/Bea/Desktop/testklo/node_modules/react-native/Libraries/Text/TextInput/RCTBaseTextInputView.h \
+  /Users/Bea/Desktop/testklo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTView.h \
+  /Users/Bea/Desktop/testklo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/Bea/Desktop/testklo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
+  /Users/Bea/Desktop/testklo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/Bea/Desktop/testklo/node_modules/react-native/Libraries/Text/TextInput/RCTBackedTextInputDelegate.h \
+  /Users/Bea/Desktop/testklo/node_modules/react-native/Libraries/Text/TextInput/RCTBackedTextInputViewProtocol.h \
+  /Users/Bea/Desktop/testklo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAccessibilityManager.h \
+  /Users/Bea/Desktop/testklo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/Bea/Desktop/testklo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/Bea/Desktop/testklo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/Bea/Desktop/testklo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/Bea/Desktop/testklo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/Bea/Desktop/testklo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/Bea/Desktop/testklo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/Bea/Desktop/testklo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/Bea/Desktop/testklo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/Bea/Desktop/testklo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/Bea/Desktop/testklo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/Bea/Desktop/testklo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/Bea/Desktop/testklo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/Bea/Desktop/testklo/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/Bea/Desktop/testklo/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/Bea/Desktop/testklo/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/Bea/Desktop/testklo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventDispatcher.h \
+  /Users/Bea/Desktop/testklo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUIManager.h \
+  /Users/Bea/Desktop/testklo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Users/Bea/Desktop/testklo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTViewManager.h \
+  /Users/Bea/Desktop/testklo/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
+  /Users/Bea/Desktop/testklo/node_modules/react-native/Libraries/Text/TextInput/RCTInputAccessoryView.h \
+  /Users/Bea/Desktop/testklo/node_modules/react-native/Libraries/Text/TextInput/RCTInputAccessoryViewContent.h \
+  /Users/Bea/Desktop/testklo/node_modules/react-native/Libraries/Text/RCTTextAttributes.h \
+  /Users/Bea/Desktop/testklo/node_modules/react-native/Libraries/Text/RCTTextTransform.h \
+  /Users/Bea/Desktop/testklo/node_modules/react-native/Libraries/Text/TextInput/RCTTextSelection.h
