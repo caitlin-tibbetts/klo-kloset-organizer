@@ -17,7 +17,7 @@ export default class Search extends React.Component
     {
         return(
             <View style={styles.container}>
-                <Text>wtf</Text>
+                <Text>This is where the user's entire wardrobe will be sorted from A to Z, color, or clothing type.</Text>
             </View>
         )
     }
