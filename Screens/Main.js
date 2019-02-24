@@ -27,7 +27,7 @@ export default class Main extends React.Component
                     </View>
                     <View style={styles.buttonContainer}>
                         <Button 
-                        onPress={() => this.props.navigation.navigate('OpenCam')}
+                        onPress={() => this.props.navigation.navigate('Camera')}
                         title="Camera"
                         color="#FFFFFF"
                         />
