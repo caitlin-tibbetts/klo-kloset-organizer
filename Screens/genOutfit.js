@@ -17,7 +17,7 @@ export default class genOutfit extends React.Component
     {
         return(
             <View style={styles.container}>
-                <Text>wtf</Text>
+                <Text>A generation of clothes that match with each other will be randomized and presented here.</Text>
             </View>
         )
     }
