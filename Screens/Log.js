@@ -17,7 +17,7 @@ export default class Log extends React.Component
     {
         return(
             <View style={styles.container}>
-                <Text>wtf</Text>
+                <Text>A log of outfits generated and worn throughout the week will be logged here.</Text>
             </View>
         )
     }
