@@ -1,0 +1,278 @@
+clothing amounts have a maximum limit (like 25 or 50)
+
+function fullOutfit(outfitsGenerated) {
+    let starter = Math.floor((Math.random() * 3));
+    let i = 0;
+    switch(starter) {
+	case '0':
+	    switch(outfitsGenerated) {
+		case '1':
+	    	    dress(colorChoice, dressAmount);
+		    [break]
+		case '5':
+		    for(i; i < 5; i++) {
+			dress(colorChoice, dressAmount);
+		    }
+		    [break]
+		case '10':
+		    for(i; i < 10; i++) {
+			dress(colorChoice, dressAmount);
+		    }
+		    [break]
+		case '15':
+		    for(i; i < 15; i++) {
+			dress(colorChoice, dressAmount);
+		    }
+		    [break]
+	    }
+	    [break]
+	case '1':
+	    switch(outfitsGenerated) {
+		case '1':
+	    	    tshirt(colorChoice, tshirtAmount);
+	            randomSkirt(skirtAmount);
+		case '5':
+		    for(i; i < 5; i++) {
+			tshirt(colorChoice, tshirtAmount);
+			randomSkirt(skirtAmount);
+		    }
+		case '10':
+		    for(i; i < 10; i++) {
+			tshirt(colorChoice, tshirtAmount);
+			randomSkirt(skirtAmount);
+		    }
+		case '15':
+		    for(i; i < 15; i++) {
+			tshirt(colorChoice, tshirtAmount);
+			randomSkirt(skirtAmount);
+		    }
+	    [break]
+	case '2':
+	    switch(outfitsGenerated) {
+		case '1':
+	    	    skirt(colorChoice, skirtAmount);
+	    	    randomTshirt(tshirtAmount);
+		case '5':
+		    for(i; i < 5; i++) {
+			tshirt(colorChoice, tshirtAmount);
+			randomSkirt(skirtAmount);
+		    }
+		case '10':
+		    for(i; i < 10; i++) {
+			tshirt(colorChoice, tshirtAmount);
+			randomSkirt(skirtAmount);
+		    }
+		case '15':
+		    for(i; i < 15; i++) {
+			tshirt(colorChoice, tshirtAmount);
+			randomSkirt(skirtAmount);
+		    }
+	    [break]
+    }
+}
+
+function dress(colorChoice, dressAmount) {
+let dressChoice;
+let x = Math.floor((Math.random() * dressAmount));
+    switch(colorChoice) {
+        case 'red':
+            dressChoice = redDresses[x];
+	    [break]
+    	case 'orange':
+	    dressChoice = orangeDresses[x];
+	    [break]
+        case 'yellow':
+	    dressChoice = yellowDresses[x];
+	    [break]
+        case 'green':
+	    dressChoice = greenDresses[x];
+	    [break]
+        case 'blue':
+	    dressChoice = blueDresses[x];
+	    [break]
+        case 'purple':
+	    dressChoice = purpleDresses[x];
+	    [break]
+        case 'pink':
+	    dressChoice = pinkDresses[x];
+	    [break]
+        case 'brown':
+	    dressChoice = brownDresses[x];
+	    [break]
+        case 'black':
+	    dressChoice = blackDresses[x];
+	    [break]
+        case 'grey':
+	    dressChoice = greyDresses[x];
+	    [break]
+        case 'white':
+	    dressChoice = whiteDresses[x];
+	    [break]
+    }
+return dressChoice;
+}
+
+function tshirt(colorChoice, tshirtAmount) {
+let tshirtChoice;
+let x = Math.floor((Math.random() * tshirtAmount));
+    switch(colorChoice) {
+        case 'red':
+            tshirtChoice = redTshirts[x];
+	    [break]
+    	case 'orange':
+	    tshirtChoice = orangeTshirts[x];
+	    [break]
+        case 'yellow':
+	    tshirtChoice = yellowTshirts[x];
+	    [break]
+        case 'green':
+	    tshirtChoice = greenTshirts[x];
+	    [break]
+        case 'blue':
+	    tshirtChoice = blueTshirts[x];
+	    [break]
+        case 'purple':
+	    tshirtChoice = purpleTshirts[x];
+	    [break]
+        case 'pink':
+	    tshirtChoice = pinkTshirts[x];
+	    [break]
+        case 'brown':
+	    tshirtChoice = brownTshirts[x];
+	    [break]
+        case 'black':
+	    tshirtChoice = blackTshirts[x];
+	    [break]
+        case 'grey':
+	    tshirtChoice = greyTshirts[x];
+	    [break]
+        case 'white':
+	    tshirtChoice = whiteTshirts[x];
+	    [break]
+    }
+return tshirtChoice;
+}
+
+function skirt(colorChoice, skirtAmount) {
+let skirtChoice;
+let x = Math.floor((Math.random() * skirtAmount));
+    switch(colorChoice) {
+        case 'red':
+            skirtChoice = redSkirts[x];
+	    [break]
+    	case 'orange':
+	    skirtChoice = orangeSkirts[x];
+	    [break]
+        case 'yellow':
+	    skirtChoice = yellowSkirts[x];
+	    [break]
+        case 'green':
+	    skirtChoice = greenSkirts[x];
+	    [break]
+        case 'blue':
+	    skirtChoice = blueSkirts[x];
+	    [break]
+        case 'purple':
+	    skirtChoice = purpleSkirts[x];
+	    [break]
+        case 'pink':
+	    skirtChoice = pinkSkirts[x];
+	    [break]
+        case 'brown':
+	    skirtChoice = brownSkirts[x];
+	    [break]
+        case 'black':
+	    skirtChoice = blackSkirts[x];
+	    [break]
+        case 'grey':
+	    skirtChoice = greySkirts[x];
+	    [break]
+        case 'white':
+	    skirtChoice = whiteSkirts[x];
+	    [break]
+    }
+return skirtChoice;
+}
+
+function randomSkirt(skirtAmount) {
+let randomColor = ((Math.random() * 13));
+let x = ((Math.random() * skirtAmount))
+let finalSkirt;
+    switch(randomColor) {
+        case '0':
+            finalSkirt = redSkirts[x];
+	    [break]
+    	case '1':
+	    finalSkirt = orangeSkirts[x];
+	    [break]
+        case '2':
+	    finalSkirt = yellowSkirts[x];
+	    [break]
+        case '3':
+	    finalSkirt = greenSkirts[x];
+	    [break]
+        case '4':
+	    finalSkirt = blueSkirts[x];
+	    [break]
+        case '5':
+	    finalSkirt = purpleSkirts[x];
+	    [break]
+        case '6':
+	    finalSkirt = pinkSkirts[x];
+	    [break]
+        case '7':
+	    finalSkirt = brownSkirts[x];
+	    [break]
+        case '8':
+	    finalSkirt = blackSkirts[x];
+	    [break]
+        case '9':
+	    finalSkirt = greySkirts[x];
+	    [break]
+        case '10':
+	    skirtChoice = whiteSkirts[x];
+	    [break]
+    }
+}
+
+function randomTshirt(tshirtAmount) {
+let randomColor = ((Math.random() * 13));
+let x = ((Math.random() * tshirtAmount))
+let finalTshirt;
+    switch(randomColor) {
+        case '0':
+            finalTshirt = redTshirts[x];
+	    [break]
+    	case '1':
+	    finalTshirt = orangeTshirts[x];
+	    [break]
+        case '2':
+	    finalTshirt = yellowTshirts[x];
+	    [break]
+        case '3':
+	    finalTshirt = greenTshirts[x];
+	    [break]
+        case '4':
+	    finalTshirt = blueTshirts[x];
+	    [break]
+        case '5':
+	    finalTshirt = purpleTshirts[x];
+	    [break]
+        case '6':
+	    finalTshirt = pinkTshirts[x];
+	    [break]
+        case '7':
+	    finalTshirt = brownTshirts[x];
+	    [break]
+        case '8':
+	    finalTshirt = blackTshirts[x];
+	    [break]
+        case '9':
+	    finalTshirt = greyTshirts[x];
+	    [break]
+        case '10':
+	    finalTshirt = whiteTshirts[x];
+	    [break]
+    }
+return finalTshirt;
+}
