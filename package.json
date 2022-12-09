@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/caitlin-tibbetts/klo-kloset-organizer#readme",
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "react": "^16.8.3",
     "react-native": "^0.58.5",
     "react-native-camera": "^1.12.0",
